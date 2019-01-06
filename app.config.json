@@ -1,8 +1,8 @@
 {
   apps : [
     {
-      name      : "simpleterms",
-      script    : "npx",
+      name      : "simpleterms.in",
+      script    : "npm",
       interpreter: "none",
       args: "PORT 80 serve -s build"
     }
